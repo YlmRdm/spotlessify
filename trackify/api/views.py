@@ -1,5 +1,7 @@
 from django.shortcuts import render
-from django.http import HttpResponse
-# Create your views here.
-def main(request):
-    return HttpResponse("Hello")
+from rest_framework import generics
+from .serializers import TrackSerializer
+from .models import Track
+class TrackView(generics.ListAPIView):
+    queryset = Track.objects.all()
+    serializer_class = TrackSerializer
