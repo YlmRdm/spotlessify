@@ -19,7 +19,7 @@ export default class HomePage extends Component {
             <Router>
                 <Routes>
                     <Route exact path="/">
-                    <p>This is the home page!</p>
+                    <p>HOME!</p>
                     </Route>
                     <Route path="/view" component={ViewTrackPage} />
                     <Route path="/add" component={AddTrackPage} />

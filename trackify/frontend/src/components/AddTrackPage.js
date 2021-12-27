@@ -7,6 +7,6 @@ export default class AddTrackPage extends Component {
     }
 
     render() {
-        return (<p>This is the add track page...</p>);
+        return <p>ADD!</p>;
     }
 }

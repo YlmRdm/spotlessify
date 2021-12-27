@@ -6,6 +6,6 @@ export default class ViewTrackPage extends Component {
     }
 
     render() {
-        return (<p>This is the view track page...</p>);
+        return <p>VIEW!</p>;
     }
 }
